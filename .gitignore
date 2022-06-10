@@ -1,0 +1,46 @@
+
+
+# do not ignore theses files
+!.gitignore
+!.phpcs.xml.dist
+!README.md
+!CHANGELOG.md
+!composer.json
+
+# do not ignore favicon files
+!*.ico
+!*.png
+!*.svg
+!*.webmanifest
+!*.xml
+
+# ignore all files starting with ~
+~*
+
+# ignore log files and databases
+*.log
+*.sql
+*.sqlite
+
+# ignore CodeKit config files
+*.codekit3
+
+# ignore any config, package, XML and hidden files
+/.htaccess
+/license.txt
+/readme.html
+/sitemap.xml
+/sitemap.xml.gz
+
+.DS_Store
+.sass-cache/
+node_modules/
+bower_components/
+
+npm-debug.log
+package-lock.json
+yarn-lock.json
+gulpfile.js
+wp-content/themes/.vscode/launch.json
+
+wp-content/themes/organik-vanilla/.vscode/launch.json

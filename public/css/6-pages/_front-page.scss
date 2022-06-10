@@ -1,0 +1,254 @@
+//=======================================================================================================================================================
+// Front page hero section
+//=======================================================================================================================================================
+
+.section-front-hero {
+    background-color: $color-light-grey;
+}
+
+
+
+//=======================================================================================================================================================
+// Front page quick links section
+//=======================================================================================================================================================
+
+.bg-image {
+	background-image: url("../images/background-gradient.jpeg");
+	position: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+	width: 100vw;
+}
+.front-page-wrap {
+	position: absolute;
+	width: 100%;
+
+	.hero-section {
+		position: relative;
+
+		img {
+			width: 100vw;
+
+			&.mobile {
+				display: block;
+
+				@include breakpoint(md) {
+					display: none;
+				}
+			}
+
+			&.desktop {
+				display: none;
+
+				@include breakpoint(md) {
+					display: block;
+				}
+			}
+		}
+
+		.image-container {
+
+			&:before {
+				position: absolute;
+				content: "";
+				display: block;
+				top: 0;
+				left: 0;
+				width: 100%;
+				z-index: 0;
+				height: 100%;
+				background: rgba(0,0,0, 30%);
+			}
+		}
+
+		.actions {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%);
+
+			  .bounce-in {
+				animation: bounce-in 2s ease infinite;
+			  }
+			  @keyframes bounce-in {
+				0% {
+				  opacity: 0;
+				  transform: scale(.3);
+				}
+				50% {
+				  opacity: 1;
+				  transform: scale(1.05);
+				}
+				70% { transform: scale(.9); }
+				100% { transform: scale(1); }
+			  }
+
+			.trailer {
+				white-space: pre;
+				animation: bounce-in 2s ease 1;
+
+				@include breakpoint(md) {
+					white-space: pre;
+					height: 80px;
+					@include font-size(25);
+				}
+
+				&:after {
+					content: "\e014";
+					display: block;
+					font-family: "ui-icons";
+					font-size: 12px;
+					font-size: 12rem;
+					line-height: 12px;
+					font-weight: normal;
+					color: #ffffff;
+					padding: 1px;
+					backface-visibility: hidden;
+					transform: translateZ(0) scale(1, 1);
+					transition: all 0.3s ease-in-out;
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					width: 30px;
+					min-width: 30px;
+					height: 30px;
+					margin: 0 0 0 10px;
+					padding: 0 0 0 2px;
+					border-radius: 100px;
+					border: 1px solid #ffffff;
+					transition: color 0.3s ease-in-out, border-color 0.3s ease-in-out, background 0.3s ease-in-out;
+				}
+			}
+		}
+	}
+
+	.movie-info-section {
+		background-color: #67010091;
+
+		.section-column {
+
+			&.section-media {
+
+
+				.video-button {
+					position: absolute;
+					left: 50%;
+					width: auto;
+					background-color: initial;
+					border-radius: 6px;
+					z-index: 1;
+					transform: translate(-50%);
+					height: auto;
+
+					&::before {
+						margin: 0;
+					}
+
+					@include on-state(hover, focus) {
+						background-color: initial;;
+					}
+				}
+			}
+		}
+	}
+
+	.orgnk-gallery {
+		width: 100%;
+
+		.gallery-thumbs {
+
+			.ratio-sizer {
+				min-height: initial;
+				padding-top: initial;
+				height: 150px;
+			}
+		}
+	}
+
+	.movie-banner-section {
+		background-image: url("../images/gray-man-banner-mobile.png");
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: contain;
+		padding: 100px 0;
+
+		@include breakpoint(sm) {
+			background-image: url("../images/gray-man-banner.png");
+		}
+
+		@include breakpoint(md) {
+			padding: 200px 0;
+		}
+	}
+
+	.staring-info-section {
+		background-color: transparent;
+
+		.column-container {
+			display: flex;
+			flex-wrap: wrap;
+
+			.actor {
+				width: 50%;
+				display: flex;
+				align-items: center;
+				margin-bottom: 24px;
+				flex-grow: 1;
+				flex-flow: column;
+
+				.actor-image {
+					min-width: 90px;
+					width: 90px;
+					height: 90px;
+					border-radius: 100%;
+					background-color: $color-white;
+					background-size: cover;
+					background-position: center;
+					background-repeat: no-repeat;
+
+					@include breakpoint(xs) {
+						min-width: 150px;
+						width: 150px;
+						height: 150px;
+					}
+
+					&.ryan {
+						background-image: url("../images/ryan-gosling.jpg");
+					}
+
+					&.chris {
+						background-image: url("../images/chris-evans.jpg");
+
+					}
+
+					&.ana {
+						background-image: url("../images/ana-de-armas.jpg");
+					}
+
+					&.rege {
+						background-image: url("../images/rege-jean-page.jpg");
+					}
+
+
+					&.jessica {
+						background-image: url("../images/jessica-henwick.jpg");
+					}
+
+
+					&.alfre {
+						background-image: url("../images/alfre-woodard.jpg");
+					}
+				}
+
+				.actor-name {
+					margin-top: 20px;
+					margin-bottom: 0;
+					text-align: center;
+					@include font-size(18);
+				}
+			}
+		}
+	}
+}

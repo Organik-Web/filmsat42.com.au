@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Films at 42</title>
+
+    <link rel="stylesheet" href="./css/main.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300,500&display=swap" rel="stylesheet">
+</head>
+
+<body class="front-page">
+    <div class="bg-image"></div>
+    <div class="front-page-wrap">
+
+
+    <section class="hero-section">
+        <div class="ratio-sizer image-container">
+            <picture>
+                <img
+                class="desktop"
+                sizes="(max-width: 1400px) 100vw, 1400px"
+                srcset="
+                images/TGM_FaceOff_ojls8y_c_scale,w_814.jpg 814w,
+                images/TGM_FaceOff_ojls8y_c_scale,w_1022.jpg 1022w,
+                images/TGM_FaceOff_ojls8y_c_scale,w_1332.jpg 1332w,
+                images/TGM_FaceOff_ojls8y_c_scale,w_1400.jpg 1400w"
+                src="images/TGM_FaceOff_ojls8y_c_scale,w_1400.jpg"
+                alt="">
+            </picture>
+
+            <picture>
+                <img
+                class="mobile"
+                sizes="(max-width: 1400px) 100vw, 1400px"
+                srcset="
+                images/TGM_FACE_OFF_MOBILE_xanfmw_c_scale,w_200.jpg 200w,
+                images/TGM_FACE_OFF_MOBILE_xanfmw_c_scale,w_334.jpg 334w,
+                images/TGM_FACE_OFF_MOBILE_xanfmw_c_scale,w_440.jpg 440w,
+                images/TGM_FACE_OFF_MOBILE_xanfmw_c_scale,w_501.jpg 501w"
+                src="images/TGM_FACE_OFF_MOBILE_xanfmw_c_scale,w_1400.jpg"
+                alt="">
+                </picture>
+
+            <div class="actions">
+                <div class="button-group">
+                    <a class="primary-button trailer video-modal-trigger" href="https://www.youtube.com/embed/cc1toP0F2NI">Watch Trailer</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section movie-info-section section-split-content section-pad section-dark">
+        <div class="container">
+            <div class="section-wrap section-column-wrap">
+                    <div class="section-column section-media">
+                        <div class="orgnk-gallery">
+                            <div class="gallery-main splide">
+                                <a class="video-button video-modal-trigger" href="https://www.youtube.com/embed/cc1toP0F2NI"></a>
+
+                                <div class="splide__track">
+                                    <div class="splide__list">
+
+
+                                        <div class="ratio-sizer image-container image-slide splide__slide">
+                                            <picture>
+                                                <img
+                                                sizes="(max-width: 1400px) 100vw, 1400px"
+                                                class="image image-cover"
+                                                srcset="
+                                                images/TGM_01_uondan_c_scale,w_200.jpg 200w,
+                                                images/TGM_01_uondan_c_scale,w_728.jpg 728w,
+                                                images/TGM_01_uondan_c_scale,w_1028.jpg 1028w,
+                                                images/TGM_01_uondan_c_scale,w_1253.jpg 1253w,
+                                                images/TGM_01_uondan_c_scale,w_1400.jpg 1400w"
+                                                src="images/TGM_01_uondan_c_scale,w_1400.jpg"
+                                                alt="">
+                                            </picture>
+                                        </div>
+                                        <div class="ratio-sizer image-container image-slide splide__slide">
+                                            <picture>
+                                                <img
+                                                class="image image-cover"
+                                                sizes="(max-width: 1400px) 100vw, 1400px"
+                                                srcset="
+                                                images/TGM_02_kmmtrf_c_scale,w_200.jpg 200w,
+                                                images/TGM_02_kmmtrf_c_scale,w_621.jpg 621w,
+                                                images/TGM_02_kmmtrf_c_scale,w_908.jpg 908w,
+                                                images/TGM_02_kmmtrf_c_scale,w_1146.jpg 1146w,
+                                                images/TGM_02_kmmtrf_c_scale,w_1383.jpg 1383w,
+                                                images/TGM_02_kmmtrf_c_scale,w_1400.jpg 1400w"
+                                                src="images/TGM_02_kmmtrf_c_scale,w_1400.jpg"
+                                                alt="">
+                                            </picture>
+                                        </div>
+                                        <div class="ratio-sizer image-container image-slide splide__slide">
+                                            <picture>
+                                                <img
+                                                class="image image-cover"
+                                                sizes="(max-width: 1400px) 100vw, 1400px"
+                                                srcset="
+                                                images/TGM_03_djgjl9_c_scale,w_200.jpg 200w,
+                                                images/TGM_03_djgjl9_c_scale,w_728.jpg 728w,
+                                                images/TGM_03_djgjl9_c_scale,w_1090.jpg 1090w,
+                                                images/TGM_03_djgjl9_c_scale,w_1400.jpg 1400w"
+                                                src="images/TGM_03_djgjl9_c_scale,w_1400.jpg"
+                                                alt="">
+                                            </picture>
+                                        </div>
+                                        <div class="ratio-sizer image-container image-slide splide__slide">
+                                            <picture>
+                                                <img
+                                                class="image image-cover"
+                                                sizes="(max-width: 1400px) 100vw, 1400px"
+                                                srcset="
+                                                images/TGM_04_ksnksx_c_scale,w_200.jpg 200w,
+                                                images/TGM_04_ksnksx_c_scale,w_627.jpg 627w,
+                                                images/TGM_04_ksnksx_c_scale,w_908.jpg 908w,
+                                                images/TGM_04_ksnksx_c_scale,w_1400.jpg 1400w"
+                                                src="images/TGM_04_ksnksx_c_scale,w_1400.jpg"
+                                                alt="">
+                                            </picture>
+                                        </div>
+                                        <div class="ratio-sizer image-container image-slide splide__slide">
+                                            <picture>
+                                                <img
+                                                class="image image-cover"
+                                                sizes="(max-width: 1400px) 100vw, 1400px"
+                                                srcset="
+                                                images/TGM_05_edks2d_c_scale,w_432.jpg 432w,
+                                                images/TGM_05_edks2d_c_scale,w_644.jpg 644w,
+                                                images/TGM_05_edks2d_c_scale,w_812.jpg 812w,
+                                                images/TGM_05_edks2d_c_scale,w_956.jpg 956w,
+                                                images/TGM_05_edks2d_c_scale,w_1382.jpg 1382w,
+                                                images/TGM_05_edks2d_c_scale,w_1400.jpg 1400w"
+                                                src="images/TGM_05_edks2d_c_scale,w_1400.jpg"
+                                                alt="">
+                                            </picture>
+                                        </div>
+                                        <div class="ratio-sizer image-container image-slide splide__slide">
+                                            <picture>
+                                                <img
+                                                class="image image-cover"
+                                                sizes="(max-width: 1400px) 100vw, 1400px"
+                                                srcset="
+                                                images/TGM_06_hfvdno_c_scale,w_632.jpg 632w,
+                                                images/TGM_06_hfvdno_c_scale,w_945.jpg 945w,
+                                                images/TGM_06_hfvdno_c_scale,w_1083.jpg 1083w,
+                                                images/TGM_06_hfvdno_c_scale,w_1375.jpg 1375w,
+                                                images/TGM_06_hfvdno_c_scale,w_1345.jpg 1345w,
+                                                images/TGM_06_hfvdno_c_scale,w_1400.jpg 1400w"
+                                                src="images/TGM_06_hfvdno_c_scale,w_1400.jpg"
+                                                alt="">
+                                            </picture>
+                                        </div>
+                                        <div class="ratio-sizer image-container image-slide splide__slide">
+                                            <picture>
+                                                <img
+                                                sizes="(max-width: 1400px) 100vw, 1400px"
+                                                class="image image-cover"
+                                                srcset="
+                                                images/TGM_07_pro48o_c_scale,w_497.jpg 497w,
+                                                images/TGM_07_pro48o_c_scale,w_701.jpg 701w,
+                                                images/TGM_07_pro48o_c_scale,w_850.jpg 850w,
+                                                images/TGM_07_pro48o_c_scale,w_1018.jpg 1018w,
+                                                images/TGM_07_pro48o_c_scale,w_1129.jpg 1129w,
+                                                images/TGM_07_pro48o_c_scale,w_1365.jpg 1365w"
+                                                src="images/TGM_07_pro48o_c_scale,w_1365.jpg"
+                                                alt="">
+                                            </picture>
+                                        </div>
+                                        <div class="ratio-sizer image-container image-slide splide__slide">
+                                            <picture>
+                                                <img
+                                                sizes="(max-width: 1400px) 100vw, 1400px"
+                                                class="image image-cover"
+                                                srcset="
+
+                                                images/TGM_20210419_08108r_xusmg4_c_scale,w_610.jpg 610w,
+                                                images/TGM_20210419_08108r_xusmg4_c_scale,w_905.jpg 905w,
+                                                images/TGM_20210419_08108r_xusmg4_c_scale,w_1143.jpg 1143w,
+                                                images/TGM_20210419_08108r_xusmg4_c_scale,w_1288.jpg 1288w,
+                                                images/TGM_20210419_08108r_xusmg4_c_scale,w_1400.jpg 1400w"
+                                                src="images/TGM_20210419_08108r_xusmg4_c_scale,w_1400.jpg"
+                                                alt="">
+                                            </picture>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="gallery-thumbs splide">
+                                <div class="splide__track">
+                                    <div class="splide__list">
+
+                                        <div class="ratio-sizer image-container thumb-slide splide__slide">
+                                            <picture>
+                                                <img
+                                                sizes="(max-width: 1400px) 100vw, 1400px"
+                                                class="image image-cover"
+                                                srcset="
+                                                images/TGM_01_uondan_c_scale,w_200.jpg 200w,
+                                                images/TGM_01_uondan_c_scale,w_728.jpg 728w"
+                                                src="images/TGM_01_uondan_c_scale,w_728.jpg"
+                                                alt="">
+                                            </picture>
+
+                                            <div class="overlay"></div>
+                                            <div class="slide-active"></div>
+                                        </div>
+                                        <div class="ratio-sizer image-container thumb-slide splide__slide">
+                                            <picture>
+                                                <img
+                                                class="image image-cover"
+                                                sizes="(max-width: 1400px) 100vw, 1400px"
+                                                srcset="
+                                                images/TGM_02_kmmtrf_c_scale,w_200.jpg 200w,
+                                                images/TGM_02_kmmtrf_c_scale,w_621.jpg 621w"
+                                                src="images/TGM_02_kmmtrf_c_scale,w_621.jpg"
+                                                alt="">
+                                            </picture>
+
+                                            <div class="overlay"></div>
+                                            <div class="slide-active"></div>
+                                        </div>
+                                        <div class="ratio-sizer image-container thumb-slide splide__slide">
+                                            <picture>
+                                                <img
+                                                class="image image-cover"
+                                                sizes="(max-width: 1400px) 100vw, 1400px"
+                                                srcset="
+                                                images/TGM_03_djgjl9_c_scale,w_200.jpg 200w,
+                                                images/TGM_03_djgjl9_c_scale,w_728.jpg 728w"
+                                                src="images/TGM_03_djgjl9_c_scale,w_728.jpg"
+                                                alt="">
+                                            </picture>
+
+                                            <div class="overlay"></div>
+                                            <div class="slide-active"></div>
+                                        </div>
+                                        <div class="ratio-sizer image-container thumb-slide splide__slide">
+                                            <picture>
+                                                <img
+                                                class="image image-cover"
+                                                sizes="(max-width: 1400px) 100vw, 1400px"
+                                                srcset="
+                                                images/TGM_04_ksnksx_c_scale,w_200.jpg 200w,
+                                                images/TGM_04_ksnksx_c_scale,w_627.jpg 627w"
+                                                src="images/TGM_04_ksnksx_c_scale,w_627.jpg"
+                                                alt="">
+                                            </picture>
+
+                                            <div class="overlay"></div>
+                                            <div class="slide-active"></div>
+                                        </div>
+                                        <div class="ratio-sizer image-container thumb-slide splide__slide">
+                                            <picture>
+                                                <img
+                                                class="image image-cover"
+                                                sizes="(max-width: 1400px) 100vw, 1400px"
+                                                srcset="
+                                                images/TGM_05_edks2d_c_scale,w_432.jpg 432w"
+                                                src="images/TGM_05_edks2d_c_scale,w_432.jpg"
+                                                alt="">
+                                            </picture>
+
+                                            <div class="overlay"></div>
+                                            <div class="slide-active"></div>
+                                        </div>
+                                        <div class="ratio-sizer image-container thumb-slide splide__slide">
+                                            <picture>
+                                                <img
+                                                sizes="(max-width: 1400px) 100vw, 1400px"
+                                                class="image image-cover"
+                                                srcset="
+                                                images/TGM_06_hfvdno_c_scale,w_632.jpg 632w"
+                                                src="images/TGM_06_hfvdno_c_scale,w_632.jpg"
+                                                alt="">
+                                            </picture>
+
+                                            <div class="overlay"></div>
+                                            <div class="slide-active"></div>
+                                        </div>
+                                        <div class="ratio-sizer image-container thumb-slide splide__slide">
+                                            <picture>
+                                                <img
+                                                class="image image-cover"
+                                                sizes="(max-width: 1365px) 100vw, 1365px"
+                                                srcset="
+                                                images/TGM_07_pro48o_c_scale,w_497.jpg 497w"
+                                                src="images/TGM_07_pro48o_c_scale,w_497.jpg"
+                                                alt="">
+                                            </picture>
+
+                                            <div class="overlay"></div>
+                                            <div class="slide-active"></div>
+                                        </div>
+                                        <div class="ratio-sizer image-container thumb-slide splide__slide">
+                                            <picture>
+                                                <img
+                                                sizes="(max-width: 1400px) 100vw, 1400px"
+                                                class="image image-cover"
+                                                srcset="
+                                                images/TGM_20210419_08108r_xusmg4_c_scale,w_610.jpg 610w,"
+                                                src="images/TGM_20210419_08108r_xusmg4_c_scale,w_610.jpg"
+                                                alt="">
+                                            </picture>
+
+                                            <div class="overlay"></div>
+                                            <div class="slide-active"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section-content section-column">
+
+                        <h2>Synopsis</h3>
+                        <p> The Gray Man is CIA operative Court Gentry (Ryan Gosling), aka, Sierra Six. Plucked from a federal penitentiary and recruited by his handler, Donald Fitzroy (Billy Bob Thornton), Gentry was once a highly-skilled, Agency-sanctioned merchant of death. But now the tables have turned and Six is the target, hunted across the globe by Lloyd Hansen (Chris Evans), a former cohort at the CIA, who will stop at nothing to take him out. Agent Dani Miranda (Ana de Armas) has his back. He’ll need it.</p>
+
+                        <div class="actions">
+                            <div class="button-group">
+                                <a href="https://tickets.filmsat42.com.au/movie/the-gray-man/" target="_blank" rel="noopener" class="primary-button white">View Session Times</a>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="movie-banner-section section-dark section-pad">
+        <div class="container">
+
+        </div>
+    </section>
+
+    <section class="section section-simple-content content-center staring-info-section section-pad-bottom section-dark">
+        <div class="container">
+            <div class="section-content">
+                <div class="content-wrap">
+
+                    <div class="content">
+                        <div class="editor-content">
+                            <div class="editor-content-wrap">
+                                <p>Directed by Anthony and Joe Russo. Based on the novel The Gray Man by Mark Greaney, the screenplay is by Joe Russo, Christopher Markus and Stephen McFeely. The producers are Joe Roth, Jeffery Kirschenbaum, Joe Russo, Anthony Russo, Mike Larocca and Chris Castaldi. Executive producers are Patrick Newall, Christopher Markus, Stephen McFeely, Jake Aust, Angela Russo-Otstot, Geoff Haley, Zack Roth, and Palak Patel.</p>
+                                <div class="column-container">
+                                    <div class="actor">
+                                        <div class="actor-image ryan">
+                                        </div>
+                                        <span class="actor-name h3">
+                                            Ryan Gosling
+                                        </span>
+                                    </div>
+                                    <div class="actor">
+                                        <div class="actor-image chris">
+                                        </div>
+                                        <span class="actor-name h3">
+                                            Chris Evans
+                                        </span>
+                                    </div>
+                                    <div class="actor">
+                                        <div class="actor-image ana">
+                                        </div>
+                                        <span class="actor-name h3">
+                                            Ana De Armas
+                                        </span>
+                                    </div>
+                                    <div class="actor">
+                                        <div class="actor-image rege">
+                                        </div>
+                                        <span class="actor-name h3">
+                                            Rege Jean Page
+                                        </span>
+                                    </div>
+                                    <div class="actor">
+                                        <div class="actor-image jessica">
+                                        </div>
+                                        <span class="actor-name h3">
+                                            Jessica Henwick
+                                        </span>
+                                    </div>
+                                    <div class="actor">
+                                        <div class="actor-image alfre">
+                                        </div>
+                                        <span class="actor-name h3">
+                                            Alfre Woodard
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-middle">
+            <div class="container">
+
+
+
+                <div class="footer-middle-left">
+                    <div class="footer-branding">
+                        <a class="footer-logo" href="/" title="Films at 42">
+                            <img height="150" width="150" class="logo" src="images/logo.png" alt="Films at 42" />
+                        </a>
+                    </div>
+                    <nav class="footer-menu" aria-label="Footer menu" aria-hidden="true">
+                        <p>For all Sales, Trade or Marketing Enquiries, contact: <a href="mailto:marketing@filmsat42.com.au">marketing@filmsat42.com.au</a> </p>
+                    </nav>
+                </div>
+
+                <div class="footer-middle-right">
+                    <div class="business-social-links">
+                        <ul class="social-links">
+                            <?php
+                                // Setup social links array
+                                $social_links['Facebook'] = 'https://facebook.com/filmsat42';
+                                $social_links['Instagram'] = 'https://instagram.com/filmsat42';
+
+                            ?>
+                            <?php foreach ( $social_links as $key => $value ) : ?>
+
+                                    <li class="social-icon">
+                                        <a href="<?php echo $value ?>" target="_blank" rel="noopener">
+                                            <div class="icon-wrapper">
+                                                <i class="icon <?php echo strtolower( $key ) ?>" aria-hidden="true"></i>
+                                                <span class="screen-reader-text"><?php  echo $key ?></span>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                            <?php endforeach ?>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="footer-bottom-bar">
+                    <div class="footer-bottom-wrap">
+                        <div class="footer-bottom-left">
+                            <span class="copyright"> &copy; 2022 Films at 42</span>
+                        </div>
+
+                        <div class="footer-bottom-right">
+                            <div class="agency-credit developer">
+                                <span>Website By</span><a href="https://www.organikweb.com.au/" target="_blank" rel="noopener">Organik Web</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    </div>
+
+</body>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="js/libs/modaal.min.js" id="modaal-js-js"></script>
+<script type="text/javascript" src="js/libs/splide.min.js" id="modaal-js-js"></script>
+<script type="text/javascript" src="js/extras.min.js" id="modaal-js-js"></script>
+<script type="text/javascript" src="js/orgnk-core-js/orgnk-core.min.js" id="orgnk-core-js-js"></script>
+
+</html>
+
