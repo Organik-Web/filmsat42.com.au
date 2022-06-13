@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Films @ 42</title>
+    <title>Films at 42</title>
 
     <link rel="stylesheet" href="./css/main.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -324,7 +324,7 @@
 
                         <div class="actions">
                             <div class="button-group">
-                                <a href="https://tickets.filmsat42.com.au/movie/the-gray-man/" target="_blank" rel="noopener" class="primary-button white">View Session Times</a>
+                                <a href="https://tickets.filmsat42.com.au/movie/the-gray-man/" target="_blank" rel="noopener" class="primary-button white">Get Tickets</a>
                             </div>
                         </div>
                     </div>
