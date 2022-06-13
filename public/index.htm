@@ -419,25 +419,25 @@
                 <div class="footer-middle-right">
                     <div class="business-social-links">
                         <ul class="social-links">
-                            <?php
-                                // Setup social links array
-                                $social_links['Facebook'] = 'https://facebook.com/filmsat42';
-                                $social_links['Instagram'] = 'https://instagram.com/filmsat42';
 
-                            ?>
-                            <?php foreach ( $social_links as $key => $value ) : ?>
 
-                                    <li class="social-icon">
-                                        <a href="<?php echo $value ?>" target="_blank" rel="noopener">
-                                            <div class="icon-wrapper">
-                                                <i class="icon <?php echo strtolower( $key ) ?>" aria-hidden="true"></i>
-                                                <span class="screen-reader-text"><?php  echo $key ?></span>
-                                            </div>
-                                        </a>
-                                    </li>
+                            <li class="social-icon">
+                                <a href="https://facebook.com/filmsat42" target="_blank" rel="noopener">
+                                    <div class="icon-wrapper">
+                                        <i class="icon facebook" aria-hidden="true"></i>
+                                        <span class="screen-reader-text">Facebook</span>
+                                    </div>
+                                </a>
+                            </li>
 
-                            <?php endforeach ?>
-
+                            <li class="social-icon">
+                                <a href="https://instagram.com/filmsat42" target="_blank" rel="noopener">
+                                    <div class="icon-wrapper">
+                                        <i class="icon instagram" aria-hidden="true"></i>
+                                        <span class="screen-reader-text">Instagram</span>
+                                    </div>
+                                </a>
+                            </li>
                         </ul>
                     </div>
                 </div>
